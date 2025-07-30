@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.profile-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.profile-card-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.profile-card-image {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.profile-card-location {
+  color: hsl(75, 94%, 57%);
+  margin-top: 10px;
+}
+
+.profile-card-bio {
+  font-size: 14px;
+}
+
+.profile-card-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile-card-link {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 16rem;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.profile-card-link:hover,
+.profile-card-link:focus {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution a {
+  transition: color 0.3s ease;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a:hover {
+  color: hsl(75, 94%, 57%);
+}
